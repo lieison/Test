@@ -38,15 +38,17 @@ TIENE 30 MIN.
         
              
              include_once 'Test.php';
-             $test = new Test();
              
+             ob_start();
+             $test = new Test();
+
              if(isset($_REQUEST['reload'])){
                  $test->Destroy();
                  $test = new Test();
              }
              
              $result = $test->GetData();
-             
+             ob_end_flush();
         ?>
         
       <div class="container">

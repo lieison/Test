@@ -55,6 +55,7 @@ class Test {
     
     public function Delete($id){
         unset($this->array_[$id]);
+        
     }
     
     
