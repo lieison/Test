@@ -4,7 +4,8 @@ PLANTEAMIENTO DEL PROBLEMA:
 
 TENEMOS UNA TABLA QUE SE GENERA MEDIANTE PHP 
     ->LA TABLA DEVUELVE DATOS DETERMINADOS EN UN ARREGLO
-    ->LOS DATOS VIENEN DE UNA CLASE 
+    ->LOS DATOS VIENEN DE UNA CLASE LLAMADA Test EN EL ARCHIVO Test.php
+
 SE NECESITA UNAS FUNCIONES EN JQUERY O JAVASCRIPT EN LA CUAL HAGAN LO SIGUIENTE
     ->EDITAR LOS DATOS
     ->ELIMINAR LOS DATOS
@@ -15,17 +16,17 @@ NO SE DEBE ENVIAR PETICION A LA PAGINA , POR ENDE DEBERA USAR AJAX Y OTROS ELEME
     ->DEBE DE USAR LOS SCRIPTS Accciones.js (PARA COLOCAR TODO CODIGO JS O JQ)
       Envio.php PARA ENVIAR LAS PETICIONES MEDIANTE EL METODO POST O GET 
     ->LA CLASE Test.php TIENE TODO CON LO QUE TRABAJAR 
-        ->SE COMPONE DE UNOS SIMPRES PROCEDIMIENTOS
+        ->SE COMPONE DE UNOS SIMPLES PROCEDIMIENTOS
         ->PARA MAS INFORMACION REVISAR LA CLASE
 NO SE PREOCUPE EN UNA FUNCION ESTARA PREDETERMINADA $.AJAX POR SI NO RECUERDA
 
-TIENE 30 MIN.
+TIENE 15 MIN.
 
 -->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>PRUEBA PASANTES 2015</title>
+        <title>PRUEBA PASANTES 2015 (PHP + JQUERY)</title>
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="Acciones.js"></script>
@@ -68,7 +69,7 @@ TIENE 30 MIN.
           <?php
            /*PISTA:
             *   SE PUEDE APRECIAR EN EL FOREACH QUE AL MOMENTO DE AGREGAR
-            *   ESTABLECE QUE LOS "TR" SEAN HIJOS DE LA TABLA 
+            *   ESTABLECE QUE LOS "<tr>" SEAN NODOS DE CLASE HIJOS DE LA TABLA 
             *   <tr id='child" . (string) $id  . "'>
             *   ESTO PUEDE AYUDAR AL MOMENTO DE EJECUTAR CON JQUERY ALGUNA FUNCION 
             *    $("#child" + id).sentencia("ejemplo"); 
@@ -84,6 +85,7 @@ TIENE 30 MIN.
                 echo "<button class='btn btn-danger' onclick='Delete($id);'><i class='fa fa-trash-o'></i></button></td>";
                 echo "</tr>";
            endforeach;
+    
 
           ?>
         </tbody>
