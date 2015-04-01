@@ -29,5 +29,6 @@ function Delete(id){
              
      }});
     //PUEDE USAR EL MISMO AJAX PARA ENVIAR LA PETICION
+  
 }
 
