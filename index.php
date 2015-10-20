@@ -26,7 +26,7 @@ TIENE 15 MIN.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>PRUEBA PASANTES 2015 (PHP + JQUERY)</title>
+        <title>PRUEBA LIEISON</title>
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="Acciones.js"></script>
