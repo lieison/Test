@@ -53,7 +53,7 @@ TIENE 15 MIN.
         ?>
         
       <div class="container">
-          <h2>LIEISON POWER DESIGN<a class="btn btn-primary" href="index.php?reload=true">Reiniciar</a> </h2>                                                                             
+          <h2>LIEISON POWER SUPERMEGA<a class="btn btn-primary" href="index.php?reload=true">Reiniciar</a> </h2>                                                                             
       <div class="table-responsive">          
       <table class="table">
         <thead>
